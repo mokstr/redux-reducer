@@ -1,7 +1,7 @@
 # Redux Reducer
 JavaScript library to simplify writing [redux](https://github.com/rackt/redux) reducers
 
-[![Build Status](https://travis-ci.org/chetanism/redux-reducer.svg?branch=master)](https://travis-ci.org/chetanism/redux-reducer)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=plastic)](https://github.com/mokstr/redux-reducer)
 
 ## Why redux-reducer?
 [Redux](https://github.com/rackt/redux) is awesome!
