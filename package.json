@@ -1,6 +1,6 @@
 {
   "name": "redux-reducer2",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A javascript library to simplify writing redux reducers",
   "homepage": "https://github.com/mokstr/redux-reducer/",
   "repository": "mokstr/redux-reducer",
