@@ -142,6 +142,7 @@ function myExistingReducer(state, action) {
 const myReducer = new Reducer({})
   .on('SOME_ACTION', (state, action) => {
     const nextState = usualReducingStuff();
+    return newState;
   };
   
 const myCombinedReducer = new CombineReducers({
