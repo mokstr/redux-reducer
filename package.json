@@ -2,8 +2,8 @@
   "name": "redux-reducer2",
   "version": "0.1.2",
   "description": "A javascript library to simplify writing redux reducers",
-  "homepage": "http://chetanism.github.io/redux-reducer",
-  "repository": "chetanism/redux-reducer",
+  "homepage": "https://github.com/mokstr/redux-reducer/",
+  "repository": "mokstr/redux-reducer",
   "author": "Chetan Verma <verma.chetan@gmail.com> (https://github.com/chetanism)",
   "contributors": [
     "Chetan Verma <verma.chetan@gmail.com>"

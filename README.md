@@ -132,7 +132,23 @@ let currentState = myReducer.reduce(null);
 currentState = myReducer.reduce(currentState, {myType: 'SOME_ACTION_1'});
 ```
 
+#### Combining with existing reducers
+```javascript
+function myExistingReducer(state, action) {
+  const nextState = usualReducingStuff();
+  return newState;
+}
 
+const myReducer = new Reducer({})
+  .on('SOME_ACTION', (state, action) => {
+    const nextState = usualReducingStuff();
+  };
+  
+const myCombinedReducer = new CombineReducers({
+  myReducer: myReducer
+  existingReducer: myExistingReducer
+});
+```
 
 ### How to Test
 
